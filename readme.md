@@ -1,1 +1,1 @@
-https://anapisarek.github.io/goit-markup-hw-01/
+https://anapisarek.github.io/goit-markup-hw-02/

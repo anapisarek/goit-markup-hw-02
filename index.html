@@ -1,52 +1,77 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Studio</title>
+    <link rel="stylesheet" href=".css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <li>
-            <a href="html://webstudio.pl"><span>Web</span>Studio</a>
+            <a class="fwseven logo" href="./index.html"
+              ><span class="web">Web</span>Studio</a
+            >
           </li>
-          <li><a href="html://agencja.pl">Agencja</a></li>
-          <li><a href="html://portfolio.pl">Portfolio</a></li>
-          <li><a href="html://kontakt.pl">Kontakt</a></li>
+          <li>
+            <a class="fwfive another" href="html://agencja.pl">Agencja</a>
+          </li>
+          <li>
+            <a class="fwfive another" href="html://portfolio.pl">Portfolio</a>
+          </li>
+          <li>
+            <a class="fwfive another" href="html://kontakt.pl">Kontakt</a>
+          </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <ul>
+        <li>
+          <a class="fwfive another mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="fwfive another telefon" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
+        </li>
+      </ul>
     </header>
     <main>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <p><button type="button">Zamów usługę</button></p>
+      <h1 class="main-heading">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+      <p><button class="service fwseven" type="button">Zamów usługę</button></p>
       <section>
         <ul>
-          <li><h2>Lorem ipsum</h2></li>
-          <li>
+          <li><h2 class="lorem fwseven">Lorem ipsum</h2></li>
+          <li class="long-lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
-          <li><h2>Lorem ipsum</h2></li>
-          <li>
+          <li><h2 class="lorem fwseven">Lorem ipsum</h2></li>
+          <li class="long-lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
-          <li><h2>Lorem ipsum</h2></li>
-          <li>
+          <li><h2 class="lorem fwseven">Lorem ipsum</h2></li>
+          <li class="long-lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
-          <li><h2>Lorem ipsum</h2></li>
-          <li>
+          <li><h2 class="lorem fwseven">Lorem ipsum</h2></li>
+          <li class="long-lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
         </ul>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="headstall fwseven">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -75,7 +100,7 @@
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="headstall fwseven">Nasz zespół</h2>
         <ul>
           <li>
             <figure>
@@ -86,8 +111,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe</b></p>
-                <p>Product Designer</p>
+                <p class="fwfive people-name">John Doe</p>
+                <p class="people-position">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -100,8 +125,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe</b></p>
-                <p>Frontend Developer</p>
+                <p class="fwfive people-name">John Doe</p>
+                <p class="people-position">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -114,8 +139,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe</b></p>
-                <p>Marketing</p>
+                <p class="fwfive people-name">John Doe</p>
+                <p class="people-position">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -128,8 +153,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe</b></p>
-                <p>UI Designer</p>
+                <p class="fwfive people-name">John Doe</p>
+                <p class="people-position">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -137,7 +162,9 @@
       </section>
     </main>
     <footer>
-      <a href="html://webstudio.pl"><span>Web</span>Studio</a>
+      <a class="fwseven logo" href="./index.html"
+        ><span class="web">Web</span>Studio</a
+      >
       <address>
         m.Warszawa, Aleje Jerozolimskie 21<br />
         info@example.com<br />
